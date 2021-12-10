@@ -1,0 +1,38 @@
+{
+  "name": "prisma-filter-generator",
+  "version": "0.0.1",
+  "description": "A filter query generator for prisma based on prisma schema",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lallenfrancisl/prisma-filter-generator.git"
+  },
+  "keywords": [
+    "prisma",
+    "typescript",
+    "javascript",
+    "generator"
+  ],
+  "author": "Allen Francis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lallenfrancisl/prisma-filter-generator/issues"
+  },
+  "homepage": "https://github.com/lallenfrancisl/prisma-filter-generator#readme",
+  "dependencies": {
+    "@prisma/client": "^3.6.0",
+    "@prisma/generator-helper": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "prettier": "^2.5.1",
+    "prisma": "^3.6.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.3"
+  }
+}
