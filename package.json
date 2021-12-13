@@ -5,8 +5,9 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node src/index.ts",
-    "build": "tsc"
+    "dev": "ts-node-dev src/index.ts",
+    "build": "tsc",
+    "generate": "prisma generate"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
   },
   "devDependencies": {
     "@types/node": "^16.11.12",
+    "@types/prettier": "^2.4.2",
     "prettier": "^2.5.1",
     "prisma": "^3.6.0",
     "ts-node": "^10.4.0",

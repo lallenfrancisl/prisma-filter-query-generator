@@ -1,8 +1,13 @@
 // Schema for a fictional hotel
 // This hotel tracks rooms, user reservations & reviews
 
-generator client {
-  provider = "prisma-client-js"
+// generator client {
+//   provider = "prisma-client-js"
+// }
+
+generator filterGenerator {
+  provider = "src/index.ts"
+  output   = "./output.js"
 }
 
 datasource db {
